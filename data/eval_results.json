@@ -1,0 +1,267 @@
+{
+  "num_queries": 12,
+  "hit_rate_at_1": 0.6667,
+  "hit_rate_at_3": 0.8333,
+  "hit_rate_at_5": 0.9167,
+  "mean_reciprocal_rank_mrr": 0.7667,
+  "multimodal_visual_coverage": 1.0,
+  "avg_retrieval_latency_ms": 452.02,
+  "min_latency_ms": 407.16,
+  "max_latency_ms": 551.94,
+  "query_details": [
+    {
+      "query": "How are video models being used to steer robots and world-action models?",
+      "category": "Robotics & Embodied AI",
+      "target_slugs": [
+        "video-models-steer-robots"
+      ],
+      "retrieved_slugs": [
+        "video-models-steer-robots",
+        "issue-376",
+        "issue-374"
+      ],
+      "first_match_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "has_media": true,
+      "num_gallery_images": 6,
+      "latency_ms": 515.19
+    },
+    {
+      "query": "What hardware devices are developers using to run AI models locally instead of cloud?",
+      "category": "Hardware & Local AI",
+      "target_slugs": [
+        "computers-built-for-local-ai"
+      ],
+      "retrieved_slugs": [
+        "issue-375",
+        "computers-built-for-local-ai",
+        "anthropic-gives-claude-haiku-a-big-update"
+      ],
+      "first_match_rank": 2,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.5,
+      "has_media": true,
+      "num_gallery_images": 6,
+      "latency_ms": 551.94
+    },
+    {
+      "query": "What are the latest updates to Anthropic's Claude family including Haiku and Opus?",
+      "category": "Frontier LLMs",
+      "target_slugs": [
+        "claude-opus-5-5-leaps-forward",
+        "claude-fills-out-its-model-family",
+        "claude-5-5s-first-model-has-landed",
+        "anthropic-gives-claude-haiku-a-big-update"
+      ],
+      "retrieved_slugs": [
+        "claude-fills-out-its-model-family",
+        "anthropic-gives-claude-haiku-a-big-update",
+        "issue-375",
+        "the-biggest-news-from-openais-dev-day"
+      ],
+      "first_match_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "has_media": true,
+      "num_gallery_images": 6,
+      "latency_ms": 454.15
+    },
+    {
+      "query": "How did DeepSeek Flash compare against DeepSeek Pro architecture and benchmarks?",
+      "category": "Open Weight Models",
+      "target_slugs": [
+        "deepseeks-flash-leapfrogs-pro-again",
+        "deepseek-v4-1-flashs-new-architecture"
+      ],
+      "retrieved_slugs": [
+        "deepseeks-flash-leapfrogs-pro-again",
+        "issue-373",
+        "deepseek-v4-1-flashs-new-architecture"
+      ],
+      "first_match_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "has_media": true,
+      "num_gallery_images": 6,
+      "latency_ms": 420.96
+    },
+    {
+      "query": "Can autonomous AI agents collaborate and pass notes to work together?",
+      "category": "Agentic Workflows",
+      "target_slugs": [
+        "dawn-of-the-agents",
+        "agents-work-better-when-they-can-pass-each-other-notes",
+        "one-agent-works-another-directs"
+      ],
+      "retrieved_slugs": [
+        "issue-371",
+        "agents-work-better-when-they-can-pass-each-other-notes",
+        "dawn-of-the-agents",
+        "one-agent-works-another-directs"
+      ],
+      "first_match_rank": 2,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.5,
+      "has_media": true,
+      "num_gallery_images": 6,
+      "latency_ms": 407.16
+    },
+    {
+      "query": "What did Anthropic's public filings disclose regarding their future and corporate governance?",
+      "category": "AI Industry & Policy",
+      "target_slugs": [
+        "anthropics-public-filing-offers-clues-to-its-future"
+      ],
+      "retrieved_slugs": [
+        "anthropics-public-filing-offers-clues-to-its-future",
+        "anthropic-gives-claude-haiku-a-big-update",
+        "qwen-image-2-1-goes-open-weights"
+      ],
+      "first_match_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "has_media": true,
+      "num_gallery_images": 6,
+      "latency_ms": 446.54
+    },
+    {
+      "query": "What announcements were made at OpenAI Dev Day regarding models and pricing?",
+      "category": "Frontier LLMs",
+      "target_slugs": [
+        "the-biggest-news-from-openais-dev-day"
+      ],
+      "retrieved_slugs": [
+        "issue-374",
+        "anthropic-gives-claude-haiku-a-big-update",
+        "how-to-read-the-top-model-leaderboard",
+        "issue-376",
+        "the-biggest-news-from-openais-dev-day"
+      ],
+      "first_match_rank": 5,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.2,
+      "has_media": true,
+      "num_gallery_images": 6,
+      "latency_ms": 414.03
+    },
+    {
+      "query": "How do researchers improve LLM context management and context engineering?",
+      "category": "Context & Prompt Engineering",
+      "target_slugs": [
+        "a-tool-for-better-context-management"
+      ],
+      "retrieved_slugs": [
+        "a-tool-for-better-context-management",
+        "muse-spark-open-leads-u-s-open-models",
+        "issue-373",
+        "formal-verification-meets-unverifiable-judgement"
+      ],
+      "first_match_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "has_media": true,
+      "num_gallery_images": 6,
+      "latency_ms": 417.96
+    },
+    {
+      "query": "What is Google's Gemini 4 Argon and its benchmark performance?",
+      "category": "Multimodal LLMs",
+      "target_slugs": [
+        "gemini-4-argons-benchmarks-and-availability"
+      ],
+      "retrieved_slugs": [
+        "gemini-4-argons-benchmarks-and-availability",
+        "metas-muse-wonder-rivals-top-models",
+        "how-to-read-the-top-model-leaderboard",
+        "argon-a-low-hallucination-model-build-for-knowledge-work"
+      ],
+      "first_match_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "has_media": true,
+      "num_gallery_images": 6,
+      "latency_ms": 414.83
+    },
+    {
+      "query": "How are AI companies addressing cybersecurity and defensive capabilities?",
+      "category": "Security & Safety",
+      "target_slugs": [
+        "we-should-be-encouraged-by-ais-cybersecurity-abilities"
+      ],
+      "retrieved_slugs": [
+        "whos-responsible-for-irresponsible-ai",
+        "issue-377",
+        "issue-374"
+      ],
+      "first_match_rank": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "hit_at_5": false,
+      "reciprocal_rank": 0.0,
+      "has_media": true,
+      "num_gallery_images": 6,
+      "latency_ms": 441.4
+    },
+    {
+      "query": "How does Meta's Muse open model family perform against top competitors?",
+      "category": "Open Weight Models",
+      "target_slugs": [
+        "muse-spark-open-leads-u-s-open-models",
+        "meta-releases-wonder-opens-spark",
+        "metas-muse-wonder-rivals-top-models"
+      ],
+      "retrieved_slugs": [
+        "meta-releases-wonder-opens-spark",
+        "issue-376",
+        "muse-spark-open-leads-u-s-open-models",
+        "metas-muse-wonder-rivals-top-models"
+      ],
+      "first_match_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "has_media": true,
+      "num_gallery_images": 6,
+      "latency_ms": 503.23
+    },
+    {
+      "query": "Could companies or governments shut down advanced AI model development?",
+      "category": "AI Governance",
+      "target_slugs": [
+        "leaders-lock-models-away"
+      ],
+      "retrieved_slugs": [
+        "leaders-lock-models-away",
+        "issue-377"
+      ],
+      "first_match_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "has_media": true,
+      "num_gallery_images": 6,
+      "latency_ms": 436.9
+    }
+  ]
+}
